@@ -1,0 +1,36 @@
+::v-deep .el-tabs__item.is-active {
+    color: black;
+    font-weight: 600;
+}
+
+ ::v-deep .el-tabs__active-bar {
+    background-color: #ec4141;
+    height: 3px;
+}
+
+ ::v-deep .el-tabs__nav-wrap::after {
+    content: '';
+    height: 0;
+}
+
+ ::v-deep .el-input__inner {
+    border-radius: 16px;
+    border: none;
+    outline: 0;
+    height: 26px;
+    background-color: whitesmoke;
+}
+
+ ::v-deep .el-input__icon {
+    color: black;
+    z-index: 2;
+}
+
+::v-deep .el-input__icon {
+    color: black;
+    z-index: 2;
+}
+
+img {
+    cursor: pointer !important;
+}

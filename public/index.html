@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="https:////at.alicdn.com/t/font_3205468_g3cm9wwtndm.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/axios@0.26.1/dist/axios.min.js
+    "></script> -->
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <style>
+        /* 为了使用rem自适应变化，html中的font-size是rem的根，后面所有的rem都是根据根（屏幕）等比例放大
+               100vw 375px
+               a?     100px ==> a =26.66667vw
+            */
+        /* html {
+            font-size: 26.66667vw;
+        } */
+        
+        body {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <noscript>
+      <!-- <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong> -->
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+</body>
+
+</html>
